@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29" height="34" viewBox="0 0 29 34">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_233" data-name="Path 233" d="M626.512-11.083h-4.227v-4.635a.486.486,0,0,0-.488-.483h-7.284v-7.425a.486.486,0,0,0-.488-.483.486.486,0,0,0-.488.483V-16.2h-4.2V-28.034h4.2v2.479a.486.486,0,0,0,.488.483.486.486,0,0,0,.488-.483v-2.961a.485.485,0,0,0-.488-.483H598.488a.485.485,0,0,0-.488.483c0,.456.006,14.166.007,16.2a.486.486,0,0,0,.488.483.485.485,0,0,0,.488-.483V-17.8h4.2V-5.966h-4.2v-4.421a.485.485,0,0,0-.488-.483.486.486,0,0,0-.488.483v4.9A.486.486,0,0,0,598.5-5h28.016A.485.485,0,0,0,627-5.483V-10.6a.485.485,0,0,0-.488-.483Zm-5.2-4.152v4.152H609.337v-4.152ZM604.16-11.083V-22.917h4.2v11.834Zm-5.183-16.952h9.383v4.152h-9.383Zm0,9.269v-4.152h4.207v4.152Zm5.183,8.648h11.972v4.151H604.16Zm21.863,4.151h-8.914v-4.151h8.914Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_232" data-name="Path 232" d="M-270,3969H1170V-242H-270Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_236" data-name="Path 236" d="M626.509-39H613.491a.5.5,0,0,0-.491.511v5.42a.5.5,0,0,0,.491.511h7.323v13.046A.5.5,0,0,0,621.3-19h5.2a.5.5,0,0,0,.491-.511V-38.489A.5.5,0,0,0,626.509-39Zm-12.527,1.023h12.036v4.4H613.982Zm12.036,17.955H621.8V-32.557h4.222Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_264" data-name="Group 264" transform="translate(-955 -767)">
+    <g id="Group_163" data-name="Group 163" transform="translate(357 806)" clip-path="url(#clip-path)">
+      <g id="Group_162" data-name="Group 162" clip-path="url(#clip-path-2)">
+        <path id="Path_231" data-name="Path 231" d="M597-30h31V-4H597Z"/>
+      </g>
+    </g>
+    <g id="Group_165" data-name="Group 165" transform="translate(357 806)" clip-path="url(#clip-path-3)">
+      <g id="Group_164" data-name="Group 164" clip-path="url(#clip-path-2)">
+        <path id="Path_234" data-name="Path 234" d="M612-40h16v22H612Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

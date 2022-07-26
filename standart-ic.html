@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/scss/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/scss/topbox.css" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Unigen</title>
+</head>
+
+<body>
+
+    <section class="searchArea">
+        <div class="container-fluid">
+          <div class="row col-xl-10 mx-auto align-content-around align-items-around min-vh-100">
+            <div class="col-12 text-end">
+              <button class="sClose" id="sClose"><img src="assets/materials/sClose.svg"></button>
+            </div>
+            <div class="col-12"></div>
+            <div class="search d-flex">
+              <input type="text" placeholder="Ürün Ara" class="form-control sBox" aria-describedby="searchProd">
+              <button type="button" class="srcAccept"><img src="assets/materials/arrow-big.svg"></button>
+            </div>
+            <div class="col-12"></div>
+          </div>
+        </div>
+    </section>
+  
+    <header class="sticky-top">
+      <section class="topbar">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-11 my-auto mx-auto text-end">
+              <a href="mimarlara-ozel.html">
+                <p>Mimarlara Özel</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <nav class="navbar navbar-expand-xl navbar-light bg-white">
+        <div class="container-fluid col-xl-11">
+          <a class="navbar-brand pe-5" href="index.html"><img src="assets/materials/logo.svg"></a>
+          <button id="toggleMenu" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icb-1"></span>
+            <span class="icb-2"></span>
+            <span class="icb-3"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+  
+              <li class="nav-item search d-xl-block d-none" id="searchScr">
+                <a class="nav-link"><img src="assets/materials/search.svg"></a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown has-megamenu">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img src="assets/materials/nav-1.svg" class="img-fluid d-inline-block d-xl-none me-3">Zemin Çözümleri<img class="ms-2" src="assets/materials/chevron.svg"></a>
+                <div class="dropdown-menu megamenu" role="menu">
+                  <div class="row col-xl-12 mx-auto">
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-1.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>Yükseltilmiş Döşeme Sistemleri</p>
+                      </a>
+                    </div>
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-2.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>Karo Halı</p>
+                      </a>
+                    </div>
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-3.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>Örgü Vinil</p>
+                      </a>
+                    </div>
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-4.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>PVC</p>
+                      </a>
+                    </div>
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-5.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>LVT</p>
+                      </a>
+                    </div>
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-6.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>Zemin Yapı Kimyasalları</p>
+                      </a>
+                    </div>
+                    <div class="col-xl text-xl-center">
+                      <a href="koleksiyon-gruplari.html" class="d-xl-inline-block d-flex">
+                        <img src="assets/materials/icon-7.svg" class="img-fluid d-none d-xl-inline-block">
+                        <p>Bakım Ürünleri</p>
+                      </a>
+                    </div>
+                  </div>
+              </li>
+  
+  
+              <li class="nav-item">
+                <a class="nav-link" href="referanslar.html"><img src="assets/materials/nav-2.svg" class="img-fluid d-inline-block d-xl-none me-3">Referanslar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="surdurulebilirlik.html"><img src="assets/materials/nav-3.svg" class="img-fluid d-inline-block d-xl-none me-3">Sürdürülebilirlik</a>
+              </li>
+              <li class="nav-item">
+                <a href="kesfet.html" class="nav-link"><img src="assets/materials/nav-4.svg" class="img-fluid d-inline-block d-xl-none me-3">Keşfet</a>
+              </li>
+              <li class="nav-item me-xl-4 me-0">
+                <a href="iletisim.html" class="nav-link"><img src="assets/materials/nav-5.svg" class="img-fluid d-inline-block d-xl-none me-3">İletişim</a>
+              </li>
+  
+              <li class="nav-item dropdown lang">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">TR <img class="ms-2" src="assets/materials/chevron.svg"></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item lng" href="#">EN</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="heading mb-5">
+        <div class="container-fluid">
+            <div class="row col-xl-10 mx-auto">
+                <div class="col-xl-6 mt-5 pt-4">
+                    <div class="breadcrumb" data-aos="fade">
+                        <a href="#"><label>Ana Sayfa</label></a>
+                    </div>
+                    <div class="title">
+                        <h1 data-aos="fade-right">Standart İç Sayfa</h1>
+                        <p class="mt-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis arcu ac felis
+                            pharetra vulputate.
+                            Etiam tincidunt consequat congue. Vivamus ornare in arcu tempus lobortis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="postArea">
+        <div class="container-fluid">
+            <div class="row col-xl-10 mx-auto">
+                <p>In luctus accumsan facilisis. Cras laoreet odio at nibh dictum, non commodo sapien interdum. Donec
+                    mattis sed ex ut interdum. Mauris ut lacinia nisi. Vivamus sapien quam, bibendum pellentesque
+                    vulputate non, elementum in nisl. Pellentesque maximus luctus lorem, sed tristique ligula dapibus a.
+                    Curabitur ut lectus aliquet enim dapibus pulvinar tempus eu leo. Integer dapibus lectus in justo
+                    cursus, vel scelerisque ipsum elementum.</p>
+
+                <img src="assets/materials/sample-inner.png" class="img-fluid mt-5">
+                <div class="col-xl-9 mx-auto mb-5 mt-5">
+                    <div class="row mb-5 i-head">
+                        <div class="col-xl-6 my-auto">
+                            <h2>Standart İç Sayfa H2</h2>
+                        </div>
+    
+                        <div class="col-xl-4 ms-xl-auto my-auto">
+                            <hr>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium felis eget risus
+                        convallis, nec eleifend est porta. Vestibulum at nisi sit amet enim fringilla tempus efficitur a
+                        sapien. Maecenas malesuada commodo enim ac finibus. Suspendisse potenti. Fusce facilisis
+                        vulputate arcu, sit amet efficitur sapien finibus in. Duis vulputate mollis nisi, id aliquet
+                        diam tristique ac. Maecenas egestas odio eu quam laoreet auctor. Aenean cursus id eros eu
+                        posuere. Etiam fringilla lectus interdum nunc sagittis consequat. Vivamus sit amet ligula ex.
+                        <br><br>
+                        Praesent rutrum nisi nisi, vel egestas nunc tincidunt nec. Praesent vehicula cursus massa ut
+                        ultricies. Duis convallis odio et finibus lobortis. Cras blandit enim eget augue pretium
+                        vestibulum. Nullam cursus tempor mauris porta pulvinar. Duis semper felis magna, luctus
+                        consectetur sapien mattis ac. Cras sed orci neque.
+                        <br><br>
+                        Aenean at facilisis turpis. Nunc commodo tincidunt diam vel varius. Vestibulum egestas maximus
+                        mauris, vitae venenatis mi convallis eu. Aenean blandit urna sapien, vitae vehicula ipsum
+                        blandit ut. Mauris consequat ac sem ut tincidunt. Sed quis tristique elit. Duis a ex ut tortor
+                        condimentum sagittis. Mauris at nisi a purus sodales tempor. Pellentesque in bibendum quam. Duis
+                        tellus ipsum, pellentesque non risus eget, maximus placerat est.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-gray">
+            <div class="row col-xl-10 mx-auto">
+                <div class="gallery img-auto">
+                    <div class="col-xl-4">
+                        <a href="assets/materials/cert-1.jpg" class="lightbox" data-lightbox-gallery="gallery1"
+                            aria-haspopup="dialog"><img src="assets/materials/cert-1.jpg"></a>
+                    </div>
+                    <div class="col-xl-4">
+                        <a href="assets/materials/cert-1.jpg" class="lightbox" data-lightbox-gallery="gallery1"
+                            aria-haspopup="dialog"><img src="assets/materials/cert-1.jpg"></a>
+                    </div>
+                    <div class="col-xl-4">
+                        <a href="assets/materials/cert-1.jpg" class="lightbox" data-lightbox-gallery="gallery1"
+                            aria-haspopup="dialog"><img src="assets/materials/cert-1.jpg"></a>
+                    </div>
+                    <div class="col-xl-4">
+                        <a href="assets/materials/cert-1.jpg" class="lightbox" data-lightbox-gallery="gallery1"
+                            aria-haspopup="dialog"><img src="assets/materials/cert-1.jpg"></a>
+                    </div>
+                    <div class="col-xl-4">
+                        <a href="assets/materials/cert-1.jpg" class="lightbox" data-lightbox-gallery="gallery1"
+                            aria-haspopup="dialog"><img src="assets/materials/cert-1.jpg"></a>
+                    </div>
+                    <div class="col-xl-4">
+                        <a href="assets/materials/cert-1.jpg" class="lightbox" data-lightbox-gallery="gallery1"
+                            aria-haspopup="dialog"><img src="assets/materials/cert-1.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row col-xl-10 justify-content-between divider mx-auto">
+            <button type="button" class="prev" id="prev"></button>
+            <button type="button" class="next" id="next"></button>
+        </div>
+
+        <div class="row col-xl-10 mx-auto mt-4 mb-5 pt-5">
+            <div class="col-xl-5 my-auto">
+                <h2>Diğer İlhamlar</h2>
+            </div>
+            <div class="col-xl-5 ms-auto my-auto">
+                <p>Sed sed massa vitae dui scelerisque pharetra vitae quis odio. Duis ac tellus sit amet ex aliquet
+                    pretium.
+                    Morbi maximus hendrerit lacinia.</p>
+            </div>
+            <hr class="mt-4">
+        </div>
+
+        <div class="row col-xl-10 mx-auto othPst pb-5">
+            <div class="col-xl-4 mb-5">
+                <a href="#">
+                    <img src="assets/materials/kesfet-ic.jpg">
+                    <div class="tags mt-4 mb-3">
+                        <label>Ev Yaşamı</label>
+                    </div>
+                    <h4 class="mb-4">Kendinden Yapışkanlı “Flex Fitters” ile Karo Halı Uygulamaları Artık Daha Kolay!
+                    </h4>
+                    <p>Kendinden yapışkanlı Flex-fitters geleneksel olarak back2back tabanlı karo ve plank halılar için
+                        kullanılan tutkallara karşı ideal bir alternatiftir. </p>
+                        <a href="kesfet-ic.html"><button type="button" class="btn-line">Detayları Görüntüle</button></a>
+                </a>
+            </div>
+
+            <div class="col-xl-4 mb-5">
+                <a href="#">
+                    <img src="assets/materials/kesfet-ic.jpg">
+                    <div class="tags mt-4 mb-3">
+                        <label>Ev Yaşamı</label>
+                    </div>
+                    <h4 class="mb-4">Kendinden Yapışkanlı “Flex Fitters” ile Karo Halı Uygulamaları Artık Daha Kolay!
+                    </h4>
+                    <p>Kendinden yapışkanlı Flex-fitters geleneksel olarak back2back tabanlı karo ve plank halılar için
+                        kullanılan tutkallara karşı ideal bir alternatiftir. </p>
+                        <a href="kesfet-ic.html"><button type="button" class="btn-line">Detayları Görüntüle</button></a>
+                </a>
+            </div>
+
+            <div class="col-xl-4 mb-5">
+                <a href="#">
+                    <img src="assets/materials/kesfet-ic.jpg">
+                    <div class="tags mt-4 mb-3">
+                        <label>Ev Yaşamı</label>
+                    </div>
+                    <h4 class="mb-4">Kendinden Yapışkanlı “Flex Fitters” ile Karo Halı Uygulamaları Artık Daha Kolay!
+                    </h4>
+                    <p>Kendinden yapışkanlı Flex-fitters geleneksel olarak back2back tabanlı karo ve plank halılar için
+                        kullanılan tutkallara karşı ideal bir alternatiftir. </p>
+                    <a href="kesfet-ic.html"><button type="button" class="btn-line">Detayları Görüntüle</button></a>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row col-xl-10 mx-auto pt-5">
+          <div class="col-xl-6 my-xl-auto mb-4">
+            <h2>Her Adımda Sizinleyiz!</h2>
+          </div>
+          <div class="col-xl-4 ms-auto my-auto">
+            <a href="assets/materials/sample.pdf" class="lightbox ubt-primary" aria-haspopup="dialog"><span>E-Katalogu Görüntüle<img
+                  src="assets/materials/e-katalog.svg"></span></a>
+          </div>
+          <hr class="mt-5">
+        </div>
+        <div class="row col-xl-10 mx-auto">
+          <div class="col-xl-3 mt-4 mb-4">
+            <h4>İletişim</h4>
+            <div class="col-xl-12 mb-2 mt-5">
+              <img src="assets/materials/u-phone.svg">
+              <a href="tel:+902165770434"><span>+90 (0216) 577 04 34</span></a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <img src="assets/materials/u-mail.svg">
+              <a href="mailto:info@unigen.com.tr"><span>info@unigen.com.tr</span></a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <img src="assets/materials/u-location.svg">
+              <a href="https://goo.gl/maps/2gRrscARkTz7NM2S8" target="blank"><span>İnönü Mahallesi Kayışdağı Caddesi
+                  Kandiş İş Merkezi No:128 Kat:2 Pk:34755
+                  Ataşehir / İSTANBUL</span></a>
+            </div>
+            <div class="social mt-4">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 mt-4 mb-4">
+            <h4>Zemin Çözümleri</h4>
+            <div class="col-xl-12 mb-2 mt-5">
+              <a href="koleksiyon-gruplari.html">Yükseltilmiş Döşeme Sistemleri</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="koleksiyon-gruplari.html">Karo Halı</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="koleksiyon-gruplari.html">PVC</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="koleksiyon-gruplari.html">LVT</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="koleksiyon-gruplari.html">Örgü Vinil</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="koleksiyon-gruplari.html">Zemin Yapı Kimyasalları</a>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 mt-4 mb-4">
+            <h4>Site Haritası</h4>
+            <div class="col-xl-12 mb-2 mt-5">
+              <a href="index.html">Ana sayfa</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="index.html#zc">Zemin Çözümleri</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="kariyer.html">Kariyer Fırsatları</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="iletisim.html">Kurumsal</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="surdurulebilirlik.html">Sürdürülebilirlik</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="referanslar.html">Referanslar</a>
+            </div>
+            <div class="col-xl-12 mb-2">
+              <a href="iletisim.html">İletişim</a>
+            </div>
+          </div>
+  
+          <div class="col-xl-3 mt-4 mb-4 text-xl-end">
+            <h4>Hakkımızda</h4>
+            <div class="col-xl-12 mb-3 mt-5">
+              <p>Her Adımda...
+                <br /><br />
+                Unigen © 2021
+                Unigen Yapı Malzemeleri A.Ş.' nin tüm hakları saklıdır.
+                <br /><br />
+                Fotoğraf ve bilgilerin izinsiz kullanımı yasaktır.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-xl-12 subF">
+          <div class="row col-xl-10 mx-auto">
+            <div class="col-xl-3 mt-auto">
+              <a href="standart-ic.html">
+                <p>Kişisel Verilerin Korunması</p>
+              </a>
+            </div>
+            <div class="col-xl-3 mt-auto">
+              <a href="standart-ic.html">
+                <p>Çerez Politikası</p>
+              </a>
+            </div>
+            <div class="col-xl-3 mt-auto">
+              <a href="standart-ic.html">
+                <p>Aydınlatma Metni</p>
+              </a>
+            </div>
+            <div class="col-xl-3 ms-auto text-xl-end my-auto">
+              <!-- <a href="https://www.unigo.com.tr/" target="blank_"><img src="assets/materials/unigo.png" width="85px" class="me-4"></a> -->
+              <a href="index.html" target="blank_"><img src="assets/materials/logo.svg" width="85px"></a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </footer>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/topbox.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
